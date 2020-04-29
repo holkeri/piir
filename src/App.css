@@ -1,38 +1,113 @@
-.App {
+.app {
+  height: 100%;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+.main {
+  height: 100%;
+  justify-content: center;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.button {
+  font-size: 12vmin;
+  border-radius: 4vmin;
+  border-style: none;
+  background: darkgrey;
+  width: 20vmin;
+  height: 20vmin;
+  margin: 2vmin;
+  outline: none;
+  /* animation: bounceIn 0.5s; */
+}
+
+button:active {
+  background: grey;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-align-last:center;
+}
+
+.phrase {
+  font-size: 11vw;
+  padding: 2vw;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  width: 100%;
+  margin: auto;
+  /* animation: bounceIn 0.5s; */
+}
+
+/* https://daneden.github.io/animate.css/ */
+
+/* @keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
   to {
-    transform: rotate(360deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
   }
 }
+
+@keyframes bounceOut {
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  50%,
+  55% {
+    opacity: 1;
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+} */
