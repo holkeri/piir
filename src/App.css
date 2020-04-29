@@ -1,5 +1,6 @@
 .app {
   height: 100%;
+  user-select: none;
 }
 
 .header {
@@ -24,6 +25,7 @@
 
 .button {
   font-size: 12vmin;
+  text-align: center;
   border-radius: 4vmin;
   border-style: none;
   background: darkgrey;
