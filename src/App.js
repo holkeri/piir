@@ -2,11 +2,9 @@
 import React, { useState } from 'react';
 import './App.css';
 import content from './content.json';
-import { useTransition, animated } from 'react-spring'
+import { SwitchTransition, CSSTransition } from "react-transition-group";
 
-// http://reactcommunity.org/react-transition-group/switch-transition
-
-const spliceRandomElement = array => array.splice(Math.floor(array.length * Math.random()), 1);
+const spliceRandomElement = array => array.splice(Math.floor(array.length * Math.random()), 1)[0];
 
 function App() {
   const [language, setLanguage] = useState('fi');
@@ -22,13 +20,6 @@ function App() {
   };
   const clearPhrase = () => setPhrase(undefined);
 
-  const transitions = useTransition(phrase && phrase.map(p => p[language]), null, {
-    from: { position: 'absolute', opacity: 0, transform: 'scale3d(0, 0, 0)' },
-    enter: { opacity: 1, transform: 'scale3d(1, 1, 1)' },
-    leave: { opacity: 0, transform: 'scale3d(0, 0, 0)' },
-    config: (item, state) => (state === 'leave' ? { friction: 40, tension: 360 } : { friction: 12, tension: 280 })
-  });
-
   return (
     <div className="app">
       <div className="header">
@@ -38,10 +29,25 @@ function App() {
         </select>
       </div>
       <div className="main">
-        {transitions.map(({ item, key, props }) => <animated.p style={props} key={key} className="phrase">{item}</animated.p>)}
+        <SwitchTransition>
+          <CSSTransition
+            key={phrase && phrase[language]}
+            addEndListener={(node, done) => node.addEventListener("animationend", done, false)}
+            classNames="bouncy"
+          >
+            <p className="phrase">{phrase && phrase[language]}</p>
+          </CSSTransition>
+        </SwitchTransition>
       </div>
       <div className="footer">
-        {phrase && <button className="button" onClick={clearPhrase}>❌</button>}
+        <CSSTransition
+          in={phrase}
+          addEndListener={(node, done) => node.addEventListener("animationend", done, false)}
+          classNames="bouncy"
+          unmountOnExit
+        >
+          <button className="button" onClick={clearPhrase}>❌</button>
+        </CSSTransition>
         <button className="button" onClick={getNewPhrase}>✨</button>
       </div>
     </div>
