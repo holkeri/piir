@@ -11,7 +11,7 @@ function App() {
   const [phrases, setPhrases] = useState([]);
   const [phrase, setPhrase] = useState();
 
-  const changeLanguage = event => setLanguage(event.target.value)
+  const toggleLanguage = () => setLanguage(language === 'fi' ? 'en' : 'fi');
   const getNewPhrase = () => {
     const newPhrases = phrases.length ? [...phrases] : [...content];
     const newPhrase = spliceRandomElement(newPhrases);
@@ -23,10 +23,9 @@ function App() {
   return (
     <div className="app">
       <div className="header">
-        <select className="button" value={language} onChange={changeLanguage}>
-          <option value="fi">🇫🇮</option>
-          <option value="en">🇬🇧</option>
-        </select>
+        <button className="iconButton" onClick={toggleLanguage}>
+          {language === 'fi' ? '🇫🇮' : '🇬🇧'}
+        </button>
       </div>
       <div className="main">
         <SwitchTransition>
@@ -46,9 +45,9 @@ function App() {
           classNames="bouncy"
           unmountOnExit
         >
-          <button className="button" onClick={clearPhrase}>❌</button>
+          <button className="iconButton" onClick={clearPhrase}>❌</button>
         </CSSTransition>
-        <button className="button" onClick={getNewPhrase}>✨</button>
+        <button className="iconButton" onClick={getNewPhrase}>✨</button>
       </div>
     </div>
   );
