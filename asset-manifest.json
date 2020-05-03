@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/piir/static/css/main.a48823dc.chunk.css",
-    "main.js": "/piir/static/js/main.6d987565.chunk.js",
-    "main.js.map": "/piir/static/js/main.6d987565.chunk.js.map",
+    "main.js": "/piir/static/js/main.241b4575.chunk.js",
+    "main.js.map": "/piir/static/js/main.241b4575.chunk.js.map",
     "runtime-main.js": "/piir/static/js/runtime-main.2ea31293.js",
     "runtime-main.js.map": "/piir/static/js/runtime-main.2ea31293.js.map",
-    "static/js/2.0d3a5505.chunk.js": "/piir/static/js/2.0d3a5505.chunk.js",
-    "static/js/2.0d3a5505.chunk.js.map": "/piir/static/js/2.0d3a5505.chunk.js.map",
+    "static/js/2.6b11195a.chunk.js": "/piir/static/js/2.6b11195a.chunk.js",
+    "static/js/2.6b11195a.chunk.js.map": "/piir/static/js/2.6b11195a.chunk.js.map",
     "index.html": "/piir/index.html",
-    "precache-manifest.17ac301b765d824588a71f30ef1e7e2c.js": "/piir/precache-manifest.17ac301b765d824588a71f30ef1e7e2c.js",
+    "precache-manifest.8b02b75e7b0c32af0be633f59c6eafbe.js": "/piir/precache-manifest.8b02b75e7b0c32af0be633f59c6eafbe.js",
     "service-worker.js": "/piir/service-worker.js",
     "static/css/main.a48823dc.chunk.css.map": "/piir/static/css/main.a48823dc.chunk.css.map",
-    "static/js/2.0d3a5505.chunk.js.LICENSE.txt": "/piir/static/js/2.0d3a5505.chunk.js.LICENSE.txt"
+    "static/js/2.6b11195a.chunk.js.LICENSE.txt": "/piir/static/js/2.6b11195a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2ea31293.js",
-    "static/js/2.0d3a5505.chunk.js",
+    "static/js/2.6b11195a.chunk.js",
     "static/css/main.a48823dc.chunk.css",
-    "static/js/main.6d987565.chunk.js"
+    "static/js/main.241b4575.chunk.js"
   ]
 }
