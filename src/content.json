@@ -36,12 +36,12 @@
     "en": "Fashionable"
   },
   {
-    "fi": "Painajainen",
-    "en": "Nightmare"
+    "fi": "Isöäidin painajainen",
+    "en": "Grandma's nightmare"
   },
   {
-    "fi": "Mafia",
-    "en": "Mafia"
+    "fi": "Vessapaperi- mafia",
+    "en": "Toilet paper mafia"
   },
   {
     "fi": "Ilmastonmuutos",
@@ -64,8 +64,8 @@
     "en": "Probate"
   },
   {
-    "fi": "Internet",
-    "en": "Internet"
+    "fi": "Elämä ennen internetiä",
+    "en": "Life before internet"
   },
   {
     "fi": "Tekoäly",
@@ -80,8 +80,8 @@
     "en": "Hygiene"
   },
   {
-    "fi": "Murrosikä",
-    "en": "Puberty"
+    "fi": "Myöhästynyt murrosikä",
+    "en": "Oveerdue puberty"
   },
   {
     "fi": "Sipsikalja- vegaani",
@@ -90,5 +90,65 @@
   {
     "fi": "Mammanpoika",
     "en": "Mama's boy"
+  },
+  {
+    "fi": "Puoli yhdeksän valeuutiset",
+    "en": "9 O'clock fake news"
+  },
+  {
+    "fi": "Ostoskanavan ahmiminen",
+    "en": "Binge watching shopping channel"
+  },
+  {
+    "fi": "Keski-iän kriisi",
+    "en": "Midlife crisis"
+  },
+  {
+    "fi": "Amerikkalainen unelma",
+    "en": "American dream"
+  },
+  {
+    "fi": "Lapsityövoima- pula",
+    "en": "Child labour shortage"
+  },
+  {
+    "fi": "Pyramidihuijaus",
+    "en": "Pyramid scheme"
+  },
+  {
+    "fi": "Yläluokka",
+    "en": "Upper class"
+  },
+  {
+    "fi": "Sosiaalisen median vaikuttaja",
+    "en": "Social media influencer"
+  },
+  {
+    "fi": "Epätosi-TV",
+    "en": "Surreality TV"
+  },
+  {
+    "fi": "Holhousvaltio",
+    "en": "Nanny state"
+  },
+  {
+    "fi": "Hot dogin syöntikilpailu",
+    "en": "Hot dog eating contest"
+  },
+  {
+    "fi": "Viattomuuden loppu",
+    "en": "The end of innocence"
+  },
+  {
+    "fi": "Valelääkäri",
+    "en": "Fake doctor"
+  },
+  {
+    "fi": "Hilseshampoo",
+    "en": "Anti-dandruff shampoo"
+  },
+  {
+    "fi": "Urbaani metsästäjä- keräilijä",
+    "en": "Urban hunter-gatherer"
   }
 ]
