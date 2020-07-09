@@ -44,8 +44,8 @@
     "en": "Toilet paper mafia"
   },
   {
-    "fi": "Ilmastonmuutos",
-    "en": "Climate change"
+    "fi": "Ilmastonmuutos on peruttu",
+    "en": "Climate change is cancelled"
   },
   {
     "fi": "Startup",
@@ -116,8 +116,8 @@
     "en": "Pyramid scheme"
   },
   {
-    "fi": "Yläluokka",
-    "en": "Upper class"
+    "fi": "Yläluokan salaiset huvit",
+    "en": "The secret pastime of the upper class"
   },
   {
     "fi": "Sosiaalisen median vaikuttaja",
@@ -172,8 +172,8 @@
     "en": "Plastic surgery gone wrong"
   },
   {
-    "fi": "Maailman pienin burrito",
-    "en": "World's smallest burrito"
+    "fi": "Maailman suurin kääpiö",
+    "en": "World's biggest dwarf"
   },
   {
     "fi": "Apple julkaisee pölynimurin",
@@ -204,8 +204,8 @@
     "en": "Gravity denialists"
   },
   {
-    "fi": "Hirvittävä rikos hississä",
-    "en": "Heinous crime in an elevator"
+    "fi": "Kiusallisin hissimatka",
+    "en": "The most awkward elevator ride"
   },
   {
     "fi": "Lattia on laavaa",
@@ -216,11 +216,19 @@
     "en": "Pharmacy with only the good stuff"
   },
   {
-    "fi": "Syntien pois pesu",
+    "fi": "Syntien pois peseminen",
     "en": "Washing your sins away"
   },
   {
-    "fi": "Drag show Muumilaaksossa",
-    "en": "Drag show in Moomin Valley"
+    "fi": "Hirvittävä rikos Muumilaaksossa",
+    "en": "Heinous crime in Moomin Valley"
+  },
+  {
+    "fi": "Hitlerin Superbowl-mainos",
+    "en": "Hitler's Superbowl ad"
+  },
+  {
+    "fi": "Kielimellakka- poliisi",
+    "en": "Grammar riot police"
   }
 ]
