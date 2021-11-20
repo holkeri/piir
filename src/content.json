@@ -16,10 +16,6 @@
     "en": "Shady business"
   },
   {
-    "fi": "Mahdoton tehtävä",
-    "en": "Mission impossible"
-  },
-  {
     "fi": "Viidakon laki",
     "en": "Law of the jungle"
   },
@@ -44,12 +40,12 @@
     "en": "Toilet paper mafia"
   },
   {
-    "fi": "Ilmastonmuutos on peruttu",
-    "en": "Climate change is cancelled"
+    "fi": "Ilmastonmuutos sujui odotettua paremmin",
+    "en": "Climate change went better than expected"
   },
   {
-    "fi": "Startup",
-    "en": "Startup"
+    "fi": "Startup liian suurella rahoituksella",
+    "en": "Startup with too much funding"
   },
   {
     "fi": "Huumeiden vastainen sota",
@@ -136,10 +132,6 @@
     "en": "Hot dog eating contest"
   },
   {
-    "fi": "Viattomuuden loppu",
-    "en": "The end of innocence"
-  },
-  {
     "fi": "Valelääkäri",
     "en": "Fake doctor"
   },
@@ -176,8 +168,8 @@
     "en": "World's biggest dwarf"
   },
   {
-    "fi": "Apple julkaisee pölynimurin",
-    "en": "Apple releases a vacuum cleaner"
+    "fi": "Apple julkaisee hiustenkuivaajan",
+    "en": "Apple releases a hair dryer"
   },
   {
     "fi": "Elämä on parasta huumetta",
@@ -212,12 +204,12 @@
     "en": "Floor is lava"
   },
   {
-    "fi": "Apteekki ainoastaan hyvällä kamalla",
-    "en": "Pharmacy with only the good stuff"
+    "fi": "Noutupöytä apteekissa",
+    "en": "Buffet in a pharmacy"
   },
   {
     "fi": "Syntien pois peseminen",
-    "en": "Washing your sins away"
+    "en": "Washing sins away"
   },
   {
     "fi": "Hirvittävä rikos Muumilaaksossa",
@@ -250,5 +242,33 @@
   {
     "fi": "WiFi ei toimi",
     "en": "WiFi not working"
+  },
+  {
+    "fi": "Julkisivun kiillotus",
+    "en": "Polishing the facade"
+  },
+  {
+    "fi": "Kansalaistottelemattomuus",
+    "en": "Civil disobedience"
+  },
+  {
+    "fi": "Yksityisyyden loukkaus",
+    "en": "Breach of privacy"
+  },
+  {
+    "fi": "Liian kylmä sauna",
+    "en": "Too cold sauna"
+  },
+  {
+    "fi": "Jakautunut persoonallisuus",
+    "en": "Split personality"
+  },
+  {
+    "fi": "Gandhi Instagramissa",
+    "en": "Gandhi on Instagram"
+  },
+  {
+    "fi": "Ääriliike",
+    "en": "Extremist organization"
   }
 ]
