@@ -89,7 +89,7 @@
   },
   {
     "fi": "Puoli yhdeksän valeuutiset",
-    "en": "9 O'clock fake news"
+    "en": "Nine o'clock fake news"
   },
   {
     "fi": "Ostoskanavan ahmiminen",
@@ -224,12 +224,8 @@
     "en": "Grammar riot police"
   },
   {
-    "fi": "Todellinen virtuaalisuus",
-    "en": "Real virtuality"
-  },
-  {
-    "fi": "Elämää simulaatiossa",
-    "en": "Life in simulation"
+    "fi": "Virtuaalitodellisuus",
+    "en": "Virtual reality"
   },
   {
     "fi": "Kohtalon ivaa",
@@ -270,5 +266,17 @@
   {
     "fi": "Ääriliike",
     "en": "Extremist organization"
+  },
+  {
+    "fi": "Kuudes aisti",
+    "en": "Sixth sense"
+  },
+  {
+    "fi": "Korkeapalkkainen ruokalähetti",
+    "en": "Highly paid food courier"
+  },
+  {
+    "fi": "Käytöstavat",
+    "en": "Manners"
   }
 ]
