@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ece795287cfa545cf231f29b979c09d",
+    "revision": "8117d29431b9a80ea2f034dfa1948814",
     "url": "/piir/index.html"
   },
   {
-    "revision": "4f3187e8b86cb352eab9",
+    "revision": "bcc71be8e7b04ba7965c",
     "url": "/piir/static/css/main.39a3bfaa.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/piir/static/js/2.6b11195a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4f3187e8b86cb352eab9",
-    "url": "/piir/static/js/main.7e6d4532.chunk.js"
+    "revision": "bcc71be8e7b04ba7965c",
+    "url": "/piir/static/js/main.b2306779.chunk.js"
   },
   {
     "revision": "2ddfe9ca8f56133d43b7",
