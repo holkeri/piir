@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.51191c38.css",
-    "main.js": "/static/js/main.c9527c9b.js",
-    "static/js/453.2f96b0a9.chunk.js": "/static/js/453.2f96b0a9.chunk.js",
-    "index.html": "/index.html",
-    "main.51191c38.css.map": "/static/css/main.51191c38.css.map",
-    "main.c9527c9b.js.map": "/static/js/main.c9527c9b.js.map",
-    "453.2f96b0a9.chunk.js.map": "/static/js/453.2f96b0a9.chunk.js.map"
+    "main.css": "/piir/static/css/main.51191c38.css",
+    "main.js": "/piir/static/js/main.0e15833a.js",
+    "static/js/453.2f96b0a9.chunk.js": "/piir/static/js/453.2f96b0a9.chunk.js",
+    "index.html": "/piir/index.html",
+    "main.51191c38.css.map": "/piir/static/css/main.51191c38.css.map",
+    "main.0e15833a.js.map": "/piir/static/js/main.0e15833a.js.map",
+    "453.2f96b0a9.chunk.js.map": "/piir/static/js/453.2f96b0a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51191c38.css",
-    "static/js/main.c9527c9b.js"
+    "static/js/main.0e15833a.js"
   ]
 }
