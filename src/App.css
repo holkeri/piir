@@ -1,6 +1,7 @@
 .app {
   height: 100%;
   user-select: none;
+  color: #000;
 }
 
 .header {
@@ -18,7 +19,7 @@
 }
 
 .phrase {
-  font-size: 8vmin;
+  font-size: 10vmin;
   width: 100%;
   text-align: center;
   padding: 4vmin;
@@ -32,8 +33,9 @@ button {
   background-color: #eee;
   cursor: pointer;
   transition: 0.2s;
-  font-size: 8vmin;
+  font-size: 10vmin;
   padding: 2vmin 4vmin;
+  color: #000;
 }
 
 button.ghostIcon {
