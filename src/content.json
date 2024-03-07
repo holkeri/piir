@@ -45,7 +45,7 @@
   },
   {
     "fi": "Startup liian suurella rahoituksella",
-    "en": "Startup with too much funding"
+    "en": "A startup with too much funding"
   },
   {
     "fi": "Huumeiden vastainen sota",
@@ -56,8 +56,8 @@
     "en": "Eurovision song contest"
   },
   {
-    "fi": "Perinnön\u00adjako",
-    "en": "Probate"
+    "fi": "Rikkaan iso\u00adäidin perinnön\u00adjako",
+    "en": "Rich grandma's will reading"
   },
   {
     "fi": "Elämä ennen internetiä",
@@ -104,8 +104,8 @@
     "en": "American dream"
   },
   {
-    "fi": "Lapsityövoima\u00adpula",
-    "en": "Child labour shortage"
+    "fi": "Työvoima\u00adpula",
+    "en": "Labour shortage"
   },
   {
     "fi": "Pyramidi\u00adhuijaus",
@@ -114,10 +114,6 @@
   {
     "fi": "Ylä\u00adluokan salaiset huvit",
     "en": "The secret pastime of the upper class"
-  },
-  {
-    "fi": "Sosiaalisen median vaikuttaja",
-    "en": "Social media influencer"
   },
   {
     "fi": "Epätosi-TV",
@@ -213,11 +209,11 @@
   },
   {
     "fi": "Hirvittävä rikos Muumi\u00adlaaksossa",
-    "en": "Heinous crime in Moomin Valley"
+    "en": "A heinous crime in Moomin Valley"
   },
   {
-    "fi": "Hitlerin Superbowl-mainos",
-    "en": "Hitler's Superbowl ad"
+    "fi": "Klemmareiden Super Bowl -mainos",
+    "en": "A Super Bowl ad for paper clips"
   },
   {
     "fi": "Kieli\u00admellakka\u00adpoliisi",
@@ -236,8 +232,8 @@
     "en": "The world's saltiest pretzel"
   },
   {
-    "fi": "WiFi ei toimi",
-    "en": "WiFi not working"
+    "fi": "Ilmainen WiFi",
+    "en": "Free WiFi"
   },
   {
     "fi": "Julki\u00adsivun kiillotus",
@@ -253,15 +249,15 @@
   },
   {
     "fi": "Liian kylmä sauna",
-    "en": "Too cold sauna"
+    "en": "A sauna too cold"
   },
   {
     "fi": "Jakautunut persoonallisuus",
     "en": "Split personality"
   },
   {
-    "fi": "Gandhi Instagramissa",
-    "en": "Gandhi on Instagram"
+    "fi": "Gandhi sosiaalisen median vaikuttajana",
+    "en": "Gandhi as a social media influencer"
   },
   {
     "fi": "Ääriliike",
@@ -293,7 +289,7 @@
   },
   {
     "fi": "Rehellinen poliitikko",
-    "en": "Honest politician"
+    "en": "An honest politician"
   },
   {
     "fi": "E-urheilu",
@@ -322,5 +318,37 @@
   {
     "fi": "Populismi",
     "en": "Populism"
+  },
+  {
+    "fi": "Äänen\u00adnopeus",
+    "en": "Speed of sound"
+  },
+  {
+    "fi": "Viivästetty tarpeen\u00adtyydytys",
+    "en": "Delayed gratification"
+  },
+  {
+    "fi": "Geeni\u00admuuntelu",
+    "en": "Genetic modification"
+  },
+  {
+    "fi": "Keski\u00adaika",
+    "en": "Middle ages"
+  },
+  {
+    "fi": "Näkymättömyys\u00adviitta",
+    "en": "Invisibility cloak"
+  },
+  {
+    "fi": "Kulttuurillinen omiminen",
+    "en": "Cultural appropriation"
+  },
+  {
+    "fi": "Mitä tapahtuu Vegasissa, pysyy Vegasissa",
+    "en": "What happens in Vegas, stays in Vegas"
+  },
+  {
+    "fi": "Herääminen Matrixista",
+    "en": "Awakening from the Matrix"
   }
 ]
