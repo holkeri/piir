@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Piir
+An eccentric phrase generator
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -42,9 +43,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ### `npm run deploy`
 
 Deploys to GitHub pages using `gh-pages`. Make sure to run `npm run build` before this.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

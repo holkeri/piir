@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import './App.css';
 import content from './content.json';
+import { SwitchTransition, CSSTransition } from 'react-transition-group';
 
 type Language = 'en' | 'fi'
 type Phrase = Record<Language, string>
@@ -36,22 +37,33 @@ const App = () => {
   }
   const hidePhrase = () => setPhraseVisible(false)
   const toggleLanguage = () => language === 'en' ? setLanguage('fi') : setLanguage('en')
+  const nodeRef = useRef(null)
 
   return (
     <div className="app">
       <div className="header">
-        <button onClick={toggleLanguage} className="ghostIcon">{texts.language[language]}</button>
+        <button onClick={toggleLanguage} className="ghost">{texts.language[language]}</button>
       </div>
-      <div className="main">
-      {phraseVisible ?
-        <>
-          <p className="phrase">{phraseTranslation}</p>
-          <button onClick={hidePhrase}>❌ {texts.hide[language]}</button>
-        </>
-        :
-        <button onClick={nextPhrase}>✨ {texts.new[language]}</button>
-      }
-      </div>
+      
+      <SwitchTransition>
+        <CSSTransition
+          key={phraseVisible.toString() + language}
+          classNames="fade"
+          timeout={200}
+          nodeRef={nodeRef}
+        >
+          <div className="main" ref={nodeRef}>
+          {phraseVisible ?
+            <>
+              <p className="phrase">{phraseTranslation}</p>
+              <button onClick={hidePhrase}>❌ {texts.hide[language]}</button>
+            </>
+            :
+            <button onClick={nextPhrase}>✨ {texts.new[language]}</button>
+          }
+          </div>
+        </CSSTransition>
+      </SwitchTransition>
     </div>
   )
 }

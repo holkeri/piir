@@ -11,7 +11,7 @@
 }
 
 .main {
-  height: 90%; /* more visually pleasing vertical midpoint  */
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,22 +30,46 @@ button {
   border-radius: 999px;
   font-weight: 600;
   border: none;
+  outline: none;
   background-color: #eee;
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.3s;
   font-size: 10vmin;
   padding: 2vmin 4vmin;
   color: #000;
 }
 
-button.ghostIcon {
+button:active {
+  transform: scale(0.9);
+}
+
+button.ghost {
   background: none;
 }
 
-button:hover {
-  background-color: #ddd;
+@media (hover: hover) {
+  button:hover {
+    background-color: #ddd;
+  }
+  button.ghost:hover {
+    background-color: #eee;
+  }
 }
 
-button:active {
+.fade-enter {
+  opacity: 0;
   transform: scale(0.9);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 200ms, transform 200ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 200ms, transform 200ms;
 }
