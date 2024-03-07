@@ -4,9 +4,9 @@ import content from './content.json';
 import { SwitchTransition, CSSTransition } from 'react-transition-group';
 
 type Language = 'en' | 'fi'
-type Phrase = Record<Language, string>
+type TextByLanguage = Record<Language, string>
 
-const getShuffledPhrases = (): Phrase[] => {
+const getShuffledPhrases = (): TextByLanguage[] => {
   const phrases = [...content]
   for (let i = phrases.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -14,7 +14,7 @@ const getShuffledPhrases = (): Phrase[] => {
   }
   return phrases
 }
-const texts: Record<string, Phrase> = {
+const texts: Record<string, TextByLanguage> = {
   language: {en: '🇬🇧', fi: '🇫🇮'},
   new: {en: 'New', fi: 'Uusi'},
   hide: {en: 'Hide', fi: 'Piilota'},
@@ -22,10 +22,10 @@ const texts: Record<string, Phrase> = {
 
 const App = () => {
   const [language, setLanguage] = useState<Language>('en')
-  const [phrases, setPhrases] = useState<Phrase[]>(getShuffledPhrases)
+  const [phrases, setPhrases] = useState<TextByLanguage[]>(getShuffledPhrases)
   const [phraseIndex, setPhraseIndex] = useState(0)
   const [phraseVisible, setPhraseVisible] = useState(false)
-  const phraseTranslation = phrases[phraseIndex][language]
+  const translatedPhrase = phrases[phraseIndex][language]
   const nextPhrase = () => {
     if (phraseIndex < phrases.length - 1) {
       setPhraseIndex(phraseIndex + 1)
@@ -44,7 +44,6 @@ const App = () => {
       <div className="header">
         <button onClick={toggleLanguage} className="ghost">{texts.language[language]}</button>
       </div>
-      
       <SwitchTransition>
         <CSSTransition
           key={phraseVisible.toString() + language}
@@ -55,7 +54,7 @@ const App = () => {
           <div className="main" ref={nodeRef}>
           {phraseVisible ?
             <>
-              <p className="phrase">{phraseTranslation}</p>
+              <p className="phrase">{translatedPhrase}</p>
               <button onClick={hidePhrase}>❌ {texts.hide[language]}</button>
             </>
             :
