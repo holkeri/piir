@@ -35,7 +35,7 @@ button {
   cursor: pointer;
   transition: 0.3s;
   font-size: 10vmin;
-  padding: 2vmin 4vmin;
+  padding: 2vmin 5vmin;
   color: #000;
 }
 
@@ -58,7 +58,7 @@ button.ghost {
 
 .fade-enter {
   opacity: 0;
-  transform: scale(0.9);
+  transform: scale(0.8);
 }
 .fade-enter-active {
   opacity: 1;
@@ -70,6 +70,6 @@ button.ghost {
 }
 .fade-exit-active {
   opacity: 0;
-  transform: scale(0.9);
+  transform: scale(0.8);
   transition: opacity 200ms, transform 200ms;
 }
