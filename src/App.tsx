@@ -48,7 +48,7 @@ const App = () => {
         <CSSTransition
           key={phraseVisible.toString() + language}
           classNames="fade"
-          timeout={200}
+          timeout={300}
           nodeRef={nodeRef}
         >
           <div className="main" ref={nodeRef}>
