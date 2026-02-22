@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/piir/static/css/main.53b92222.css",
-    "main.js": "/piir/static/js/main.d3d4ac8b.js",
-    "static/js/453.2f96b0a9.chunk.js": "/piir/static/js/453.2f96b0a9.chunk.js",
+    "main.js": "/piir/static/js/main.ff13f24f.js",
+    "static/js/453.e4414203.chunk.js": "/piir/static/js/453.e4414203.chunk.js",
     "index.html": "/piir/index.html",
     "main.53b92222.css.map": "/piir/static/css/main.53b92222.css.map",
-    "main.d3d4ac8b.js.map": "/piir/static/js/main.d3d4ac8b.js.map",
-    "453.2f96b0a9.chunk.js.map": "/piir/static/js/453.2f96b0a9.chunk.js.map"
+    "main.ff13f24f.js.map": "/piir/static/js/main.ff13f24f.js.map",
+    "453.e4414203.chunk.js.map": "/piir/static/js/453.e4414203.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53b92222.css",
-    "static/js/main.d3d4ac8b.js"
+    "static/js/main.ff13f24f.js"
   ]
 }
